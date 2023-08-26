@@ -148,6 +148,15 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.content-container {
+  text-align: center;
+  padding: 160px 20px;
+  background-color: var(--secondary-color);
+}
+.content-container h1 {
+  font-size: 64px;
+  font-family: var(--primary-font-heading);
+}
 @media (max-width: 600px) {
   .about-content h1 {
     font-size: 48px;
