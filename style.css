@@ -19,8 +19,8 @@ body {
 .hero {
   background: url("images/background.jpg");
   background-size: cover;
-  height: 500px;
-  padding: 160px 20px;
+  height: 400px;
+  padding: 130px 20px;
   background-position: center;
   background-repeat: no-repeat;
   font-family: var(--primary-font-heading);
@@ -54,7 +54,7 @@ p {
   background-color: var(--secondary-color);
   text-align: center;
   line-height: 2;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 .about-content h1 {
   font-size: 64px;
@@ -157,6 +157,10 @@ p {
   font-size: 64px;
   font-family: var(--primary-font-heading);
 }
+.logo {
+  width: 100px;
+}
+
 @media (max-width: 600px) {
   .about-content h1 {
     font-size: 48px;
