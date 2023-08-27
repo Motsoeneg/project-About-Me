@@ -85,7 +85,10 @@ footer {
   font-family: var(--primary-font-heading);
   padding: 45px;
 }
-
+.work-content h1 {
+  font-size: 64px;
+  font-family: var(--primary-font-heading);
+}
 .navigation-links a {
   margin: 20px;
   border-radius: 4px;
